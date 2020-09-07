@@ -2,7 +2,13 @@
 
   <article class="login-banner">
     <div class="login-banner--conteudo">
-      <div class="login-banner--logo"></div>
+      <div class="login-banner--logo">
+        <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 5.68182L6.81818 0L19.3182 5.68182L26.1364 19.3182L19.3182 25H0V5.68182Z" fill="#737373"/>
+        <rect x="6.81818" width="19.3182" height="19.3182" fill="#C4C4C4"/>
+        </svg>
+        sistema abc
+      </div>
       <p class="login-banner--descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <picture>
         <img src="https://cdn.jsdelivr.net/gh/valdney89/angular-TesteSonda@master/src/assets/imgs/Ativo%202.png" alt="computador com conexões diferentes">
@@ -11,10 +17,17 @@
   </article>
 
   <article class="login-form">
-    <h3>Entrar no sistema</h3>
-    <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>
-    <form></form>
+    <form>
+      <h3>Entrar no sistema</h3>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>
+      <label>Usuário</label>
+      <input id="usuario" type="text" placeholder="Usuário ou CPF">
+      <label>Senha</label>
+      <input id="senha" type="text" placeholder="Senha">
+      <span class="esqueceu-senha">Esqueceu a senha?</span>
+      <button type="submit">Enviar</button>
+    </form>
   </article>
 
 </section>
