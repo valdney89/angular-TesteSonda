@@ -1,7 +1,6 @@
 .menu-esquerdo{
-  height: 87vh;
   background-color: #2B2C2D;
-  width: 20vw;
+  width: 100%;
 }
 
 .menu-esquerdo ul{
@@ -17,5 +16,15 @@
 
 .menu-active{
   color: #47c7ef !important;
-  border-left: 3px solid #47c7ef;
+}
+
+/* media 1024*/
+@media (min-width: 1024px){
+  .menu-esquerdo{
+    height: 87vh;
+    width: 20vw;
+  }
+  .menu-active{
+    border-left: 3px solid #47c7ef;
+  }
 }

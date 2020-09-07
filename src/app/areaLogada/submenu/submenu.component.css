@@ -7,19 +7,11 @@
 
 .submenu--avatar{
   color: #fff;
-  width: 20vw;
+  width: 100%;
   padding: 14px;
   position: relative;
-}
-
-.submenu--avatar::after{
-  content: '';
-  position: absolute;
-    width: 2px;
-    height: 30px;
-    background-color: #47c7ef;
-    right: 0;
-    top: 8px;
+  order: 2;
+  text-align: right;
 }
 
 .submenu--logo{
@@ -27,6 +19,7 @@
   color: #ccc;
   font-size: 18px;
   font-weight: 600;  
+  width: 100%;
 }
 
 .submenu--menu .line1, .submenu--menu .line2, .submenu--menu .line3{
@@ -42,4 +35,25 @@
 
 .submenu--menu{
   margin-left: 20px;
+}
+
+/* media 1024*/
+@media (min-width: 1024px){
+  .submenu--avatar{
+    width: 20vw;
+    order: 0;
+    text-align: left;
+  }
+  .submenu--avatar::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 30px;
+    background-color: #47c7ef;
+    right: 0;
+    top: 8px;
+  }
+  .submenu--logo{
+    width: inherit;
+  }
 }
