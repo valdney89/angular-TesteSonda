@@ -1,0 +1,21 @@
+.menu-esquerdo{
+  height: 92vh;
+  background-color: #2B2C2D;
+  width: 20vw;
+}
+
+.menu-esquerdo ul{
+  list-style: none;
+}
+
+.menu-esquerdo ul li{
+  color: #fff;
+  padding: 20px 40px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.menu-active{
+  color: #47c7ef !important;
+  border-left: 3px solid #47c7ef;
+}
