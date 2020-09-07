@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class HeaderComponent  {
 
-  logoEmpresa = `https://cdn.jsdelivr.net/gh/valdney89/angular-TesteSonda@master/src/assets/imgs/Ativo%201.png`;
+  logoEmpresa = `https://i.ibb.co/r4NNfmh/Ativo-1.png`;
   altLogoEmpresa = `Empresa ABC`;
 }
