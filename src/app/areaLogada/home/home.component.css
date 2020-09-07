@@ -1,11 +1,5 @@
-header{
+.dashboard-main{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background: linear-gradient(45deg, #0A1C23, #47C7EF);
-  padding: 20px 15px;
-}
-
-.LinkProducao{
-  color: #fff;
+  justify-content: space-between
 }
