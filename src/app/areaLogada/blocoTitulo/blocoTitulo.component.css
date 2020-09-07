@@ -1,0 +1,10 @@
+.bloco-titulo--conteudo{
+  padding: 20px;
+  background-color: #fff;
+}
+
+.bloco-titulo--conteudo h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600
+}
